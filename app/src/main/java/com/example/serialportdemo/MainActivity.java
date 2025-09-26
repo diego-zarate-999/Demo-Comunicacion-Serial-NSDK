@@ -1,7 +1,6 @@
 package com.example.serialportdemo;
 
 import android.bluetooth.BluetoothDevice;
-import android.hardware.usb.UsbDevice;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -27,8 +26,6 @@ import com.newland.nsdk.core.api.external.communication.NSDKCommunicator;
 import com.newland.nsdk.core.api.internal.NSDKModuleManager;
 import com.newland.nsdk.core.api.internal.beeper.Beeper;
 import com.newland.nsdk.core.api.internal.serialportmanager.SerialPortManager;
-import com.newland.nsdk.core.api.internal.serialportmanager.SerialPortType;
-import com.newland.nsdk.core.api.internal.serialportmanager.USBSerialPort;
 import com.newland.nsdk.core.external.ExtNSDKModuleManagerImpl;
 import com.newland.nsdk.core.internal.NSDKModuleManagerImpl;
 
