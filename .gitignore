@@ -1,0 +1,48 @@
+# Android Studio / IntelliJ
+*.iml
+.idea/
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Gradle
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local configuration file (SDK path, etc.)
+local.properties
+
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Java class files
+*.class
+
+# Kotlin (even if using Java project)
+*.kotlin_module
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (if used)
+google-services.json
+
+# Misc / OS files
+.DS_Store
+Thumbs.db
+
+# Crashlytics / Fabric
+crashlytics-build.properties
+
+# NDK / C++ files
+obj/
+*.so
